@@ -3,7 +3,7 @@ const dotenv    = require('dotenv');
 const morgan    = require('morgan');
 
 // Routes
-const bootcampRouter = require('./routes/bootcampRouter');
+const bootcampRouter = require('./app/routes/bootcampRouter');
 
 // Load env files
 dotenv.config({ path: './config/config.env' });

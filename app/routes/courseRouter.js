@@ -1,12 +1,18 @@
 const express = require('express');
 
 const {
-    getCourses
+    getCourses,
+    getCourse,
+    createCourse
 } = require('./../controllers/courseController');
 
 const router = express.Router({ mergeParams: true });
 
 router.route('/')
-    .get(getCourses);
+    .get(getCourses)
+    .post(createCourse);
+
+router.route('/:id')
+    .get(getCourse);
 
 module.exports = router;

@@ -104,4 +104,7 @@ dist
 .tern-port
 
 .idea
+
 config/config.env
+
+/public/uploads

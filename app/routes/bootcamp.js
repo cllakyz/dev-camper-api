@@ -14,7 +14,7 @@ const Bootcamp = require('../models/Bootcamp');
 const advancedResults = require('../middlewares/advancedResults');
 
 // Include other resource routers
-const courseRouter = require('./courseRouter');
+const courseRouter = require('./course');
 
 const router = express.Router();
 

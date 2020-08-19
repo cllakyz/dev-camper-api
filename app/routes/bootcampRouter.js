@@ -8,9 +8,9 @@ const {
     deleteBootcamp,
     getBootcampsInRadius,
     uploadBootcampPhoto
-} = require('./../controllers/bootcampController');
+} = require('../controllers/BootcampController');
 
-const Bootcamp = require('../models/bootcampModel');
+const Bootcamp = require('../models/Bootcamp');
 const advancedResults = require('../middlewares/advancedResults');
 
 // Include other resource routers

@@ -6,9 +6,9 @@ const {
     createCourse,
     updateCourse,
     deleteCourse
-} = require('./../controllers/courseController');
+} = require('../controllers/CourseController');
 
-const Course = require('../models/courseModel');
+const Course = require('../models/Course');
 const advancedResults = require('../middlewares/advancedResults');
 
 const router = express.Router({ mergeParams: true });

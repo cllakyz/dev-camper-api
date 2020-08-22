@@ -16,8 +16,8 @@ dotenv.config({ path: './config/config.env' });
 connectDB();
 
 // Route files
-const bootcampRouter = require('./app/routes/bootcamp');
-const courseRouter   = require('./app/routes/course');
+const bootcampRouter = require('./app/routes/bootcamps');
+const courseRouter   = require('./app/routes/courses');
 const authRouter     = require('./app/routes/auth');
 
 const app = express();
